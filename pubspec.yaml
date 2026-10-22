@@ -1,0 +1,26 @@
+name: flutter_device_features
+description: Flutter app integrating native device features.
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.3.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  device_info_plus: ^10.1.2
+  image_picker: ^1.1.2
+  google_maps_flutter: ^2.9.0
+  local_auth: ^2.3.0
+  record: ^6.1.0
+  audioplayers: ^6.1.0
+  path_provider: ^2.1.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
